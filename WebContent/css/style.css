@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body{ /* 문서 전체 디자인 적용 */
+	font-size: 14px;
+	font-family: 맑은 고딕;
+}
+
+
+/* 로그인 영역에 디자인 적용 */
+#login {
+	float: right; /* 문서의 오른쪽에 배치 설정 */
+	margin: -20px 20px 0 0;
+	font-family: 맑은 고딕, Arial;
+	font-size: 12px;
+	word-spacing: 5px; /* 글자와 글자 사이의 간격, 자간 */
+	font-style: bold;
+	text-shadow: 1px 2px 2px #666;
+}
+
+/* 로그인 영역의 a 태그에 디자인 적용 */
+#login a {
+	text-decoration: none; /* a태그의 밑줄 제거 */
+	color: #333;
+}
+/* a 태그에 마우스 올렸을 시 */
+#login a:hover {
+	color: #f90;
+}
+
+/* 전체 div 태그에 대한 디자인 적용*/
+.container {
+	width: 950px; /* 문서 전체의 폭 설정 */
+	margin: 0 auto; /* 문서의 바깥쪽 여백 */
+	background-color: #fff; /* 문서의 배경색 설정 */
+	border: 1px solid #e8e2ae;
+}
+
+/* header 영역 디자인 적용 */
+header { /* 머릿말 디자인 */
+	height: 208px;
+	margin-top: 0px;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat; /* 이미지 반복 없음 */
+	background-position: left top; /* 이미지 위치 */
+}
+
+header hgroup {	/* 헤더 영역의 hgroup 태그 디자인 적용 */
+	position: relative;
+	top: 60px;
+	left: 180px;
+	
+}
+
+header h1{	/* 헤더 영역의 주제목 디자인 적용 */
+	font-size: 2.5em;
+	color: #f2cb78;
+	text-shadow: 1px 2px 2px #000;
+}
+
+header h2{	/* 헤더 영역의 주제목 디자인 적용 */
+	font-size: 1.8em;
+	color: #e18048;
+	text-shadow: 0px 1px 1px #000;
+}
+
+/* 네비게이션 영역 디자인 적용 */
+.navi{
+	background-color: #c07f5a;
+	margin-top: -15px;
+	width: 950px;
+    height: 50px;
+}
+.navi ul{
+	list-style: none;
+    height: 40px;
+    padding-top: 10px;
+	
+}
+
+.navi ul li {
+    float: left; /* 수직 메뉴를 수평 메뉴로 변경 */
+    font-size: 17px;
+}
+
+.navi a {
+    padding: 10px 120px 5px 60px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navi a:visited {	/* a태그 방문 시 적용 */
+    color: #fff;
+}
+
+.navi a:hover, .navi a:active, .navi a:focus {	/* a태그 마우스오버 시, 클릭 시, 포커스가 올라갔을 시 */
+    text-shadow: 0px 2px 2px #000;
+    color: #fc0;
+}
+
+/* section 영역 디자인 적용 */
+.content {
+    background-color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 720px;
+    float: left;
+}
+
+
+.content article p {
+    text-align: justify;/* 글자를 양쪽 균등 정렬 */
+}
+
+.sidebar{
+    float:right;
+    background-color:#e4da7e;
+	width: 200px;
+	height: 507px;
+    padding-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+
+
+}
+
+.sidebar img{
+    margin-left:30px;
+	border: 1px solid #ccc;
+	opacity:0.5; /* 불투명도*/
+	text-align:center;
+}
+
+.sidebar img:hover{ /* 이미지에 마우스 오버 시 디자인 적용*/
+    border: 1px solid #000;
+    opacity:1; /* 마우스 올리면 선명해짐*/
+}
+
+.foot {
+    padding :5px 0;
+    background-color :#997000;
+    color: #fff;
+	text-align: center;
+	clear: both; /* float:right 기능 제거 */
+}
+
+
+
+
+

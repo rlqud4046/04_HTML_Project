@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데카르트 홈페이지</title>
+<link rel="stylesheet" href="../css/style.css">
+<script type="text/javascript">
+	function login_window() {
+		window.open("../login/login.html", "로그인", "width=380px, height =250px");
+		/* open() window. 생략 가능*/
+		/* window.open("파일 경로명", "창이름", "가로폭,높이") */
+	}
+	
+	function regist_window() {
+		window.open("../regist/regist.html", "회원가입", "width=620px, height =900px");
+		/* open() window. 생략 가능*/
+		/* window.open("파일 경로명", "창이름", "가로폭,높이") */
+	}
+	
+</script>
+
+
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<!-- 웹 문서의 상단 영역 -->
+			<div id="login">
+				<a href="../index.html">홈</a> 
+				<a href="#" onclick="login_window()">로그인</a> 
+				<a href="#" onclick="regist_window()">회원가입</a>
+
+
+
+			</div>
+			<!-- id="login" end -->
+			<hgroup>
+				<!-- 제목과 부제목을 그룹으로 묶어주는 역할 -->
+				<h1>데카르트, 서양 근대철학의 창시자</h1>
+				<h2>Rene Decartes, 1596~1650</h2>
+			</hgroup>
+		</header>
+
+		<nav class="navi">
+			<!-- 네비게이션 영역 -->
+			<ul>
+				<li><a href="../birth/birth.html">탄 생</a></li>
+				<li><a href="../writing/writing.html">저 서</a></li>
+				<li><a href="../philosophy/philosophy.html">철 학</a></li>
+				<li><a href="../saying/saying.html">명 언</a></li>
+			</ul>
+		</nav>
+
+		<section class="content">
+			<!-- 문서의 절(구역) : 여러 개 사용 가능 -->
+			<h2>데카르트 탄생</h2>
+			<article>
+				<!-- 문서의 본문 -->
+				<h3>데카르트의 일생</h3>
+				<p>르네 데카르트는 1596년 3월 31일에 탄생했으며, 프랑스의 물리학자, </p>
+				<p>근대 철학의 아버지, 해석 기하학의 창시자로 불린다.</p>
+				<p>1606년 예수회가 운영하는 라 플레쉬 콜레주에 입학하여 1614년까지</p>
+				<p>8년간에 걸쳐 철저한 인본주의 교육을 받았다.</p>
+				<p>1650년 2월 11일, 그는 폐렴에 걸려 54세의 나이로 세상을 떠났다.</p>
+				<p><br> </p>
+				<p> <br></p>
+				
+
+				<div class="picture">
+					<img alt="오른쪽 탁자에 있는 여왕의 오른쪽 인물이 데카르트" src="../images/bg2.png" width="720" height="195">
+
+				</div>
+			</article>
+		</section>
+
+		<aside class="sidebar">
+			<!-- 문서의 보조 내용(알림, 광고) -->
+			<h3 align="center">◐저서 구입◑</h3>
+			<p>저서 구입을 원하시는 분은 전화 010-1111-1234로 연락 주시기 바랍니다.</p>
+			<img src="../images/book1.png" width="130" height="160"> <img src="../images/book2.png"
+				width="130" height="160"
+			>
+		</aside>
+		<!-- 문서의 하단 내용 -->
+
+		<footer class="foot">
+			<p>글 : 임 정 훈 / 저술가, 번역가</p>
+			<address>E-Mail : jhehun@empas.com</address>
+			<p>Copyright &copy All Right reserved</p>
+		</footer>
+
+
+
+
+
+
+
+	</div>
+	<!-- class = "container" end -->
+</body>
+</html>
